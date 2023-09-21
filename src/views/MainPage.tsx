@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../scss/mainPage.scss';
-import MainGalleryContents from './main/MainGalleryContents';
+import MainGalleryContent from './main/MainGalleryContent';
 
 const MainPage = (): JSX.Element => {
   return (
@@ -18,7 +18,7 @@ const MainPage = (): JSX.Element => {
         <div className="mainPage__content-box main-gallery">
           <div className="mainPage__content__title">갤러리</div>
           <div className="mainPage__content">
-            <MainGalleryContents />
+            <MainGalleryContent />
           </div>
         </div>
       </div>
